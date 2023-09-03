@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İç İçe CSS ve HTML Örneği</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: 2px solid #ccc;
+            background-color: #f0f0f0;
+            color: #333;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .btn--lg {
+            font-size: 20px;
+            padding: 15px 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="company-wrapper" style="height: 100vh;">
+        <div class="container">
+            <div class="company" id="ozelliklerimiz">
+                <div class="company-content">
+                    <h4 class="toptitle toptitle--blue">PRODUCTS</h4>
+                    <h2 class="title title--white">We exist to match the right candidate with the right job post</h2><a class="btn btn--blue" href="#beginForm" style=" min-width: 20rem;"><span class="btn__text">Upload CV</span></a><a class="btn btn--blue" href="#beginForm2" style="min-width: 20rem; margin-left: 20px; background: #fff; color: #3B6CF0; border-color: #fff;"><span class="btn__text">Hire Staff</span></a>
+                </div>
+                <div class="company-grid">
+                    <div class="divider-horizontal"></div>
+                    <div class="divider-vertical"></div>
+                    <div class="company-item">
+                        <img class="company-item__image" src="/assets/img/istihdam.svg">
+                        <h5 class="title company-item__title title--white">Employment</h5>
+                        <p class="company-item__text">Hiring personnel</p>
+                    </div>
+                    <div class="company-item">
+                        <img class="company-item__image" src="/assets/img/yetenek.svg">
+                        <h5 class="title company-item__title title--white">Skill Verification</h5>
+                        <p class="company-item__text">Matching qualified candidates</p>
+                    </div>
+                    <div class="company-item">
+                        <img class="company-item__image" src="/assets/img/egitim.svg">
+                        <h5 class="title company-item__title title--white">Education</h5>
+                        <p class="company-item__text">IT training and individual IT learning</p>
+                    </div>
+                    <div class="company-item">
+                        <img class="company-item__image" src="/assets/img/topluluk.svg">
+                        <h5 class="title company-item__title title--white">Community</h5>
+                        <p class="company-item__text">Special educational opportunities</p>
+                    </div>
+                </div><a class="btn btn--blue only-mobile mt-4" href="#beginForm" style="min-width:20rem;"><span class="btn__text">Upload CV</span></a><a class="btn btn--blue only-mobile mt-4" href="#beginForm2" style="min-width: 20rem; background: #fff; color: #3B6CF0; border-color: #fff;"><span class="btn__text">Hire Staff</span></a>
+            </div>
+        </div>
+        <div class="company__logo"><img src="/assets/img/company-logo.png"></div>
+    </div>
+</body>
+
+</html>

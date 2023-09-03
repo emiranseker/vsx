@@ -1,0 +1,362 @@
+.tagList {
+    width: 96%;
+    margin: 2%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.tagBox {
+    height: 40px;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 26px;
+    color: #0F2851;
+    border: 1px solid #0F2851;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+    .tagBox:hover {
+        background-color: #0F2851;
+        border: none;
+        color: #fff;
+    }
+
+    .tagBoxActive {
+        background-color: #0F2851 !important;
+        border: none !important;
+        color: #fff !important;
+    }
+
+    .textControlAtMobile {
+
+    }
+
+.formControlAtMobile {
+
+}
+
+.footerImageItem {
+    margin-right: 6.5%;
+    margin-bottom:50px;
+    float:left;
+    width:140px;
+    text-align:center;
+}
+
+.formViewFullHeight {
+    padding: 6rem 15rem 0 15rem !important;
+}
+
+.languages {
+    position: absolute;
+    margin-top: -3%;
+}
+
+.formViewFullHeight[two] {
+    padding: 8rem 15rem 0 15rem !important;
+}
+
+.formControlAtMobileTR {
+
+}
+
+.formWebContainer {
+    height: 100vh;
+}
+
+.ourBlog {
+    width:100%;
+    height: 500px;
+    margin-top:50px;
+}
+
+.footerTextBox {
+    width: 10%;
+    position: absolute;
+    left: 40%;
+}
+
+.footerTextItem {
+    position: absolute;
+}
+
+.ourBlogItem {
+    width: 30%;
+    height: 400px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.ourBlogImage {
+    width:100%;
+    height:60%;
+}
+
+.ourBlogHead {
+    height:40px;
+    width:100%;
+    margin-bottom: 80px;
+}
+
+.ourBlogText {
+    width: 70%;
+    height:30%;
+}
+
+    .ourBlogText h5 {
+        font-size: 24px;
+        color: #878787;
+        font-weight: 600;
+    }
+
+    .ourBlogImage img {
+        width: 100%;
+        height: 70%;
+    }
+
+.container768px {
+
+}
+
+.landing-page-contact-wrapper768px {
+
+}
+
+.landing-page-contact-wrapper768px[two] {
+
+}
+
+.form-box768px {
+
+}
+
+.bottomTextContainer {
+    width: 100%;
+    height: 100px;
+}
+
+.bottomTextLeft {
+    width: 70%;
+    position: absolute;
+}
+
+.bottomTextRight {
+    width: 26%;
+    position: absolute;
+    left: 68%;
+}
+
+.bottomTextLeftText {
+    color: #386af0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+    .bottomTextLeftText[two] {
+        color: #516380;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+
+@media (max-width: 390px) {
+    .landing-page-contact-wrapper768px {
+        height: 100vh;
+        margin-top: 50px;
+    }
+
+        .landing-page-contact-wrapper768px[two] {
+            height: 90vh;
+            margin-top:0;
+        }
+
+    .bottomTextContainer {
+        height: 300px;
+    }
+
+    .bottomTextContainer {
+        height: 250px;
+    }
+
+    .bottomTextRight {
+        width: 90%;
+        position: absolute;
+        top: 75%;
+        left: 6.5%;
+    }
+
+        .bottomTextRight[two] {
+            width: 95%;
+            position: absolute;
+            top: 39%;
+            left: 5%;
+        }
+}
+
+@media (max-width: 375px) {
+    .company-wrapper {
+        height: 100% !important;
+    }
+
+    .midPageContainer {
+        height:100% !important;
+    }
+
+    .container768px {
+        margin-top: 0px !important;
+    }
+
+    .landing-page-contact {
+        padding-top: 1rem !important;
+    }
+
+    .form-box-mobile {
+        max-height: 90vh !important;
+    }
+
+    .landing-page-contact-wrapper768px {
+        height: 125vh !important;
+    }
+
+    .form-box768px {
+        margin-left: 6px;
+    }
+
+    .formControlAtMobile {
+        margin-left: 0px !important;
+    }
+
+    .landing-page-contact-wrapper768px[two] {
+        height: 115vh;
+    }
+
+    .bottomTextRight {
+        width: 95% !important;
+        position: absolute;
+        left: 5% !important;
+    }
+
+        .bottomTextRight[two] {
+            width: 95% !important;
+            position: absolute;
+            left: 3% !important;
+        }
+}
+
+@media (max-width: 420px) {
+    .container768px {
+        margin-top: 120px !important;
+    }
+
+    .footerTextBox {
+        left:37.5%;
+    }
+
+    .landing-page-contact-wrapper768px {
+        height: 115vh;
+    }
+
+    .form-box768px {
+        margin-left: 13px;
+    }
+
+    .footerLastPart {
+        width: 100%;
+        height: 300px;
+    }
+
+    .footerLastPartBottom {
+        width: 100%;
+        height: 750px;
+        margin-top: 30px;
+    }
+
+    .landing-page-contact-wrapper768px[two] {
+        height: 100vh;
+    }
+
+    .bottomTextLeftText {
+        color: #386af0;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+        .bottomTextLeftText[two] {
+            color: #516380;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+    .bottomTextContainer {
+        height: 300px;
+        margin-bottom: 720px;
+    }
+
+    .bottomTextRight {
+        width: 90%;
+        position: absolute;
+        top: 45%;
+        left: 9%;
+    }
+
+    .bottomTextRight[two] {
+        width: 95%;
+        position: absolute;
+        top: 39%;
+        left: 9%;
+    }
+}
+
+@media (max-width: 768px) {
+    .formControlAtMobile {
+        margin-top: 150px !important;
+        margin-left: calc(50% - 160px) !important;
+        width: 340px;
+    }
+
+        .only-desktop-slider {
+            display: none !important;
+        }
+
+        .ourBlogItem {
+            width:100%;
+            margin-right:0;
+        }
+
+        .formControlAtMobileTR {
+            margin-top: 180px !important;
+            margin-left: 12px !important;
+            width: 340px;
+        }
+
+        .textControlAtMobile {
+            left: calc(55% - 170px);
+            width:340px;
+        }
+
+        .formViewFullHeight {
+            padding: 0 !important;
+        }
+
+        .formViewFullHeight[two] {
+            padding: 1rem !important;
+        }
+
+        .formWebContainer {
+            height: 90vh;
+        }
+    }
+
+@media (min-width: 768px) {
+    .only-mobile-slider {
+        display: none !important;
+    }
+}
